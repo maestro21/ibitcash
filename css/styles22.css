@@ -1,0 +1,265 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top;
+}
+
+tr, th, td, {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: middle;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+body {  
+  background: url("../images/bg.jpg"/*tpa=http://wmlegion.com/images/bg.jpg*/) #ffffff;
+  font-weight: normal;
+  font-size: 13px;
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+  color: #5d5d5d;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  overflow-x: hidden;
+}
+
+.maintab {
+  width:100%; height:100%; margin:0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body,ul,ol,li{margin:0;padding:0;}
+fieldset,img{border:0;}
+ol,ul {list-style:none;}
+          
+h1 { font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;font-size: 17px; color: #274b6d;text-transform:uppercase; margin-bottom: 20px}
+h2 { font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;font-size: 22px; color: #274b6d;line-height:3;text-shadow: #f2f2f1 1px 1px 0px;}
+h3 { font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;font-size: 22px; color: #274b6d;line-height:3;text-shadow: #f2f2f1 1px 1px 0px;}
+h4 { font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;font-size: 22px; color: #274b6d;line-height:3;text-shadow: #f2f2f1 1px 1px 0px;}
+h5 { font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;font-size: 20px; color: #274b6d;line-height:3;text-shadow: #f2f2f1 1px 1px 0px;}
+
+
+td { font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 14px; color: #5d5d5d; text-decoration: none;line-height:1.3;text-shadow: #e2ecd9 1px 1px 0px}
+
+
+.fieldl {
+    background: url("../images/login.png"/*tpa=http://wmlegion.com/images/login.png*/) no-repeat;
+	color: #909090;
+	border: 0px solid #7B8083;
+	padding: 2px 5px 0px 35px;
+	font-weight: normal;
+	width:176px;
+	height:40px;
+}
+
+.fieldp {
+    background: url("../images/password.png"/*tpa=http://wmlegion.com/images/password.png*/) no-repeat;
+	color: #909090;
+	border: 0px solid #7B8083;
+	padding: 2px 5px 0px 25px;
+	font-weight: normal;
+	width:160px;
+	height:40px;
+}
+
+
+.menu {text-align:center;font-size: 13px; color: #5d5d5d; padding:0px 15px 0px 15px; text-shadow: #fcfcfc 1px 1px 0px; line-height: 67px; vertical-align: middle;}
+
+.menu a:link, .menu a:visited     {COLOR: #5d5d5d;text-decoration: none;outline: none;}
+.menu a:active, .menu a:hover     {COLOR: #3b7198;text-decoration: none;outline: none;}
+
+
+a:link, a:visited     {COLOR: #5d5d5d;text-decoration: none;outline: none;}
+a:active, a:hover     {COLOR: #3b7198;text-decoration: none;outline: none;}
+
+.regbut {background:url("../images/regbut.png"/*tpa=http://wmlegion.com/images/regbut.png*/) no-repeat; color:#ffffff; text-shadow: #ca6a15 1px 1px 0px; width:191px; height:44px; line-height:44px; vertical-align:middle}
+.regbut:hover {opacity: 0.8}
+
+.regbut2 {background:url("http://wmlegion.com/images/regbut2.png"/*tpa=http://wmlegion.com/images/regbut2.png*/) no-repeat; color:#ffffff; text-shadow: #979797 1px 1px 0px; width:295px; height:45px; line-height:45px; vertical-align:middle}
+.regbut2:hover {opacity: 0.8}
+
+
+
+.cr { font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 13px; color: #9e9e9e; text-decoration: none;line-height:1.3}
+
+.cr A:link          {COLOR: #9e9e9e;text-decoration: none;outline: none;}
+.cr A:active        {COLOR: #3b7198;text-decoration: none;outline: none;}
+.cr A:visited       {COLOR: #9e9e9e;text-decoration: none;outline: none;}
+.cr A:hover         {COLOR: #3b7198;text-decoration: none;outline: none;}
+
+
+.blue { font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 14px; color: #40649f; text-decoration: none;text-shadow: #f9f9f9 1px 1px 0px;height:28px; line-height:28px; vertical-align:middle}
+.grey { font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 13px; color: #5d5d5d; text-decoration: none;text-shadow: #f9f9f9 1px 1px 0px;height:28px; line-height:28px; vertical-align:middle}
+
+.arrow {width:20px; height:28px; line-height:28px; vertical-align:middle}
+
+
+
+.bluehead { font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;font-size: 17px; color: #274b6d;text-transform:uppercase; margin-bottom: 10px; text-align: center;}
+
+
+
+#navacc li{
+background:url("../images/regbut2.png"/*tpa=http://wmlegion.com/images/regbut2.png*/) no-repeat; color:#ffffff; text-shadow: #979797 1px 1px 0px; width:295px; height:45px; line-height:45px; vertical-align:middle; text-align: center;margin-top:5px;
+}
+
+#navacc li:hover{
+opacity: 0.8}
+
+
+
+
+
+
+.container {width:100%}
+
+
+ul.nice-menu li {
+  width: 1px;
+  height: 30px;
+  line-height: 20px;
+  padding: 0px 0px 0px 0px;
+  margin-top: 3px;
+  background: transparent;
+  width: 5px;
+}
+
+ul.nice-menu.tight li {
+  margin-top: 0 !important;
+}
+
+ul.nice-menu li {
+  -moz-animation-name: shrink;
+  -moz-animation-duration: 0.5s;
+  -moz-animation-timing-function: ease-in-out;
+  -webkit-animation-name: shrink;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+ul.nice-menu.bounce li {
+  -moz-animation-name: shrink-bounce;
+  -moz-animation-duration: 0.5s;
+  -moz-animation-timing-function: ease-in-out;
+  -webkit-animation-name: shrink-bounce;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+ul.nice-menu li:hover {
+  width: 200px;
+  padding-left: 20px;
+  -moz-animation-name: expand;
+  -moz-animation-duration: 0.5s;
+  -moz-animation-timing-function: ease-in-out;
+  -webkit-animation-name: expand;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+ul.nice-menu.bounce li:hover {
+  -moz-animation-name: expand-bounce;
+  -moz-animation-duration: 0.5s;
+  -moz-animation-timing-function: ease-in-out;
+  -webkit-animation-name: expand-bounce;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+ul.nice-menu a {
+  width: 150px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #18B1E3;
+  font-weight: bold;
+  position: absolute;
+  padding: 5px 0px;
+  padding-left: 40px;
+}
+
+ul.nice-menu li.green {
+  background: rgb(210,214,217);
+}
+
+ul.nice-menu li.blue {
+  background: rgb(210,214,217);
+}
+
+ul.nice-menu li.orange {
+  background: rgb(210,214,217);
+}
+
+ul.nice-menu li.dark {
+  background: rgb(210,214,217);
+} 
+
+ul.nice-menu li.red {
+  background: rgb(210,214,217);
+}
+
+ul.nice-menu li.bright {
+  background: rgb(210,214,217);
+}
+
+
+
+
+.great_btn {
+ background: linear-gradient(to bottom, #0bc408 0%,#09a206 100%);
+ color: #fff;
+ font-size: 16px;
+ text-shadow: 0 1px 0 #757575;
+ padding: 4px 0 5px 0;
+ margin: 0;
+ cursor: pointer;
+ border: 0;
+ border-top: 1px solid #87c286;
+ border-right: 1px solid #0e780c;
+ border-left: 1px solid #0e780c;
+ border-bottom: 1px solid #0e780c;
+ box-shadow: 0 -1px 0 #0e780c, 0 1px 0 #fff;
+ width: 150px;
+ border-radius: 2px;
+}
+
+
+
+
+
+

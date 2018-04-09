@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /includes/
+Disallow: /cfg.php
+Disallow: /ini.php
+Disallow: /captcha.php
+Crawl-delay: 1
+Host: ibit.cash
+Sitemap: https://ibit.cash/sitemap.xml

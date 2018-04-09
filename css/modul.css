@@ -1,0 +1,599 @@
+input, select, textarea, .inputbox, .button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+a {color:#177b9b; text-decoration:none;}
+.tvsamsung { 
+background: url("../images/tv_samsung.png") no-repeat;
+width:267px;
+height:189px;
+margin-left:3px;
+margin-top:7px;
+border: 0px solid red;
+}
+
+.tvcont { 
+width:244px;
+height:137px;
+padding-left:-1px;
+padding-top:11px;
+}
+
+.addvideo {
+background: url("../images/add_video.png") no-repeat; 
+width:115px;
+height:38px;
+float:right;
+margin-top:10px;
+margin-right:-3px;
+cursor:pointer;
+}
+
+
+ul.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+ul.menu li {
+	display: block;
+	background: url("../images/dot.gif") repeat-x bottom;
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+}
+
+ul.menu li a {
+	background: url("../images/arrow-grey.gif") no-repeat left center;
+	display: block;
+	outline: none;
+	padding: 6px 0 6px 10px;
+	margin: 0;
+	text-decoration: none;
+	color: #555555;
+}
+
+ul.menu li a:hover,
+ul.menu li a:active,
+ul.menu li a:focus {
+	background: url("../images/arrow-hover.gif") no-repeat left center;
+	color: #C55901;
+	text-decoration: none;
+}
+
+ul.menu li.active a {
+	font-weight: bold;
+	color: #C55901;
+}
+
+ul.menu li ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu li li {
+	border: none;
+	background: none !important;
+	padding: 0 0 0 10px;
+}
+
+ul.menu li li a {
+	color: #4F4F4F !important;
+	border: none;
+	padding: 5px 5px 5px 10px !important;
+	text-transform: none;
+	font-weight: normal !important;
+}
+
+ul.menu li li a:hover,
+ul.menu li li a:active,
+ul.menu li li a:focus {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+ul.menu li li.active a {
+	color: #4F4F4F;
+	font-weight: bold !important;
+}
+
+ul.menu li li li a {
+	color: #4F4F4F !important;
+	font-weight: normal !important;
+	padding-left: 35px !important;
+	background: url("../images/bullet.gif") no-repeat 25px 10px !important;
+}
+
+ul.menu li li li.active a {
+	font-weight: bold !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --  Меню видео  -- */
+ul.vieom {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+ul.vieom li {
+	display: block;
+	background: url("../images/dot.gif") repeat-x bottom;
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+	color: #555555;
+}
+
+ul.vieom li a {
+	background: url("../images/arrow-grey.gif") no-repeat left center;
+	display: block;
+	outline: none;
+	color: #555555;
+	padding: 6px 0 6px 10px;
+	margin: 0;
+	text-decoration: none;
+	
+}
+
+ul.vieom li a:hover,
+ul.vieom li a:active,
+ul.vieom li a:focus {
+	background: url("../images/arrow-hover.gif") no-repeat left center;
+	color: #C55901;
+	text-decoration: none;
+}
+/* --  //Меню видео  -- */
+
+
+
+
+.bordertop {
+background: url("../images/bordertop.png") no-repeat; 
+width:271px;
+height:10px;
+margin:-2px 0 0 -3px;
+}
+
+.bordermiddle {
+background: url("../images/bordermiddle.png") repeat-y left;
+margin: 0 -3px 0 -3px;
+padding: 0 15px 0 10px;
+}
+
+.borderbottom {
+background: url("../images/borderbottom.png") no-repeat; 
+width:271px;
+height:10px;
+margin:0 0 -2px -3px;
+}
+
+.informer {
+	background-color: #faece0;
+	border: 1px solid #d68746;
+	-moz-border-radius:8px; border-radius:8px; webkit-border-radius:8px;
+	color: #993300;
+	margin: 0 0 15px 5px;
+}
+.informer h1 {
+font-size:18px;
+font-weight:bold;
+color:#990000;
+}
+
+
+
+/* -- Конкурсы а сайте -- */
+table.konkurs {
+width : 625px;
+background-color :none;
+color :#3a3a3a;
+border: none;
+margin-bottom:30px;
+border-spacing : 0px;
+}
+
+table.konkurs thead tr{
+background:url("../images/dark_str.png") no-repeat; 
+height:35px;
+}
+table.konkurs thead tr th{
+color : #000;
+font-size:12px;
+font-weight:normal;
+padding:0 5px 2px 10px;
+}
+
+table.konkurs thead a{
+font-weight:bold;
+}
+
+table.konkurs thead a:hover {
+color :#ffffff;
+}
+table.konkurs thead th img {
+vertical-align : middle;
+}
+
+table.konkurs tbody tr {
+text-align : left;
+}
+
+table.konkurs tr td table{
+width:100%;
+text-align : left;
+}
+table.konkurs tbody tr td {
+height : 17px;
+padding:0 5px 0 5px;
+vertical-align : middle;
+}
+table.konkurs tbody tr td a{
+font-weight:bold;
+}
+table.konkurs tfoot tr {
+background:url("../images/light_str.png") no-repeat left bottom;
+height:33px;
+}
+table.konkurs tfoot tr td{ 
+color : #6a6a6a;
+font-size:12px;
+font-weight : bold;
+padding:0; 
+margin:0;
+}
+
+table.konkurs tfoot a{
+font-weight:bold;
+}
+
+table.konkurs tfoot a:hover {
+color :#993300;
+}
+
+table.konkurs tfoot tr td table{
+width:625px;
+border-spacing : 0px;
+padding:0px 10px 0px 10px;
+margin:10px 0 0 0;
+
+}
+table.konkurs tfoot tr td table tr{
+background:none;
+}
+
+table.konkurs tfoot tr td table tr td img{
+padding:0; margin:0 0 0 3px;
+}
+
+
+
+
+
+
+
+
+/* -- Свободный прогоноз -- */
+table.prognoz {
+width : 625px;
+background-color :none;
+color :#3a3a3a;
+border: none;
+margin-bottom:30px;
+border-spacing : 0px;
+}
+
+table.prognoz thead tr{
+background:url("../images/dark_str.png") no-repeat; 
+height:35px;
+}
+table.prognoz thead tr th{
+color : #000;
+font-size:12px;
+font-weight:normal;
+padding:0 5px 2px 10px;
+}
+
+table.prognoz thead a{
+font-weight:bold;
+}
+
+table.prognoz thead a:hover {
+color :#ffffff;
+}
+table.prognoz thead th img {
+vertical-align : middle;
+}
+
+table.prognoz tbody tr {
+text-align : left;
+}
+
+table.prognoz tr td table{
+width:100%;
+text-align : left;
+}
+table.prognoz tbody tr td {
+height : 17px;
+padding:0 5px 0 5px;
+vertical-align : middle;
+}
+table.prognoz tbody tr td a{
+font-weight:bold;
+}
+table.prognoz tfoot tr {
+background:url("../images/light_str.png") no-repeat left bottom;
+height:33px;
+}
+table.prognoz tfoot tr td{ 
+color : #6a6a6a;
+font-size:12px;
+font-weight : bold;
+padding:0; 
+margin:0;
+}
+
+table.prognoz tfoot a{
+font-weight:bold;
+}
+
+table.prognoz tfoot a:hover {
+color :#993300;
+}
+
+table.prognoz tfoot tr td table{
+width:625px;
+border-spacing : 0px;
+padding:0px 10px 0px 10px;
+margin:10px 0 0 0;
+
+}
+table.prognoz tfoot tr td table tr{
+background:none;
+}
+
+table.prognoz tfoot tr td table tr td img{
+padding:0; margin:0 0 0 3px;
+}
+
+
+
+
+
+.tcomment {
+background:url("../div/top_div.png") no-repeat center top;
+height:10px;
+width:596px;
+margin:0 auto;
+}
+.mcomment {
+background:url("../div/middle_div.png") repeat-y center top;
+margin:0 auto;
+}
+.bcomment {
+background:url("../div/bottom_div.png") no-repeat center top;
+height:10px;
+width:596px;
+margin:0 auto;
+margin-bottom:20px;
+}
+
+.tby {
+background:url("../div/topby.png") no-repeat center top;
+height:12px;
+width:587px;
+}
+.mby {
+background:url("../div/midby.png") repeat-y center top;
+margin:0 auto;
+}
+.bby {
+background:url("../div/botby.png") no-repeat center top;
+height:12px;
+width:587px;
+margin:0;
+}
+
+
+
+.bbbbcode{
+margin:0 -40px 0 -20px;
+padding:0;
+}
+.bbbbcode div{
+margin:-4px;
+padding:0;
+}
+
+
+/* ---Мой ОСНОВНОЙ БЛОК--- */
+
+.myblock {width:670px;margin:0 0 18px 0px;}
+.myblock .b_head {height:60px;background:url("../images/block_head.png") no-repeat;}
+.myblock .b_head .title {
+	float:left;
+	height:30px;
+	background:url("../images/block_title.png") no-repeat right;
+	margin:10px 0 0 0;
+	padding:3px 30px 0 20px;
+	font:normal 16px Trebuchet MS;
+	color:#fff;
+}
+.myblock .b_head .title a {color:#fff;text-decoration:none;}
+.myblock .content {
+	border-right:1px solid #a5a3a2;
+	border-bottom:1px solid #a5a3a2;
+	border-left:1px solid #a5a3a2;
+	margin:-5px 0 0 14px;
+	padding:15px 10px 15px 10px;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	line-height: 1.3em;
+	color:#555555;
+}
+.myblock .content img { margin:0; padding:2px 3px 2px 3px;}
+.myblock .content a {color:#177b9b;}
+.myblock .content a:hover {color:rgb(206,108,41);}
+.myblock .content #info {font-size:11px;color:#837a84;}
+.myblock .content #more {
+border-top:1px solid #a5a3a2;
+padding:5px 0 0 0;
+margin:5px 0 0 0;
+}
+
+.content_t {
+background: url("../images/cont_t.png") no-repeat center top; 
+width:619px;
+height:15px;
+margin:0 auto;
+}
+
+.content_m {
+background: url("../images/cont_m.png") repeat-y center top;
+margin: 0;
+padding:10px;
+}
+
+.content_b {
+background: url("../images/cont_b.png") no-repeat center bottom; 
+width:619px;
+height:15px;
+margin:0 auto;
+padding:0;
+margin-bottom:20px;
+}
+
+.fd-container {
+ position: relative;
+}
+
+.fixed-div {
+ width: 35px;
+ height: 200px;
+ border: 0px solid red;
+ position: fixed;
+ top: 33%;
+ right: -1px;
+ background: url("../images/prognoz_button.png") no-repeat ;
+ cursor: pointer; 
+}
+
+/*comments*/
+
+.padding {
+padding:10px;
+}
+.comments {
+	background-color: #fafafa;
+	border: 1px solid #e3e3e3;
+	-moz-border-radius:8px; border-radius:8px; webkit-border-radius:8px;
+	margin-bottom: 10px;
+}
+.comments3 {
+	background-color: #E6E6E6;
+	border: 1px solid #CCCCCC;
+	-moz-border-radius:8px; border-radius:8px; webkit-border-radius:8px;
+	margin-bottom: 10px;
+}
+
+.comments2 { padding-bottom: 15px; }
+
+.comments .binner { padding: 14px 0; margin: 0 15px; }
+.comments .dleft {
+	float: left; width: 118px; 
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+/* -- календарь в архиве прогнозов -- */
+table.mcal td {
+width:25px;
+height:25px;
+border: 1px solid #cccccc;
+font-weight:bold;
+}
+table.mcal td.caldays:hover {
+border: 1px solid #cccccc;
+cursor:default;
+background-color:#ebeae8;
+color:#990000;
+}
+
+table.mcal td.calmonth:hover {
+border: 1px solid #9B1F04;
+cursor:default;
+}
+
+
+table.mcal td:hover {
+background-color:#c25901;
+color:#ffffff;
+border: 1px solid #9B1F04;
+font-weight:bold;
+cursor:pointer;
+width:25px;
+height:25px;
+}
+
+/* -- разделители -- */
+ul.mostread li.mostread {
+	background: url("../images/dot.gif") repeat-x left bottom;
+	padding: 5px 0;
+	list-style: none;
+}
+/* -- кнопка что я рисовал маленькая -- */
+.mybutton {
+	background-color:transparent;
+	border: none;
+	color: #ffffff;
+	font-size: 12px;		/* ! */
+	font-family: tahoma;	/* ! */
+	width: 85px;
+	height: 31px;
+	background-image: url("../dleimages/risbutton.png");
+	background-repeat: no-repeat;
+	font-weight: bold;
+	padding-bottom: 5px;
+	cursor:pointer;
+	text-shadow:#000000 1px 1px 2px;
+}
+
+.mybutton:hover {
+	color: #eacdb5;
+}
+/* -- кнопка что я рисовал большая -- */
+.mybutton_big {
+	background-color:transparent;
+	border: none;
+	color: #ffffff;
+	font-size: 12px;		/* ! */
+	font-family: tahoma;	/* ! */
+	width: 115px;
+	height: 33px;
+	background-image: url("../dleimages/risbutton_big.png");
+	background-repeat: no-repeat;
+	font-weight: bold;
+	padding-bottom: 5px;
+	cursor:pointer;
+	text-shadow:#000000 1px 1px 2px;
+}
+
+.mybutton_big:hover {
+	color: #eacdb5;
+}
+/* -- фотки и инф о юзере в модуле видео-- */
+.userinf img{
+vertical-align:middle;
+}

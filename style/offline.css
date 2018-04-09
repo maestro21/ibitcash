@@ -1,0 +1,48 @@
+body {
+    font: 12px Tahoma, sans-serif;
+    margin:0;
+    padding:0;
+    background:url('../images/offline/bg.png') no-repeat #131510;
+    background-position:50% -130px;
+}
+
+.container {
+    width:700px !important;
+    font-size:14px;
+    color:#fff;
+    background:url('../images/offline/bg_content.png');
+    border-radius:9px;
+    padding:15px 60px 60px 60px;
+}
+
+.box-inner {
+    background:url('../images/offline/bg-box.gif');
+    padding:25px;
+    border-radius:7px;
+}
+
+.box-title {
+    font-family:"Segoe Ui Light", "Segoe Ui", Calibri, Tahoma;
+    font-size:28px;
+    padding-bottom:15px;
+    color:#CCCCCC;
+}
+
+a:link, a:visited {
+    color:#9966CC;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.bottom-text {
+    color:#444444;
+    font-size:11px;
+    margin-top:15px;
+}                          
+
+.logo {
+    margin:150px 0 50px 0;
+}

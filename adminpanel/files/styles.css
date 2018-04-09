@@ -1,0 +1,87 @@
+body, table, td {
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+}
+.er {
+	background: url(../images/error.gif) no-repeat left top;
+	text-align: center; 
+	color: red; 
+	border: 1px solid #990000; 
+	background-color: #ffcccc;
+	padding: 4 4 4 4px;
+	font-weight: bold;
+	border-radius: 3px;
+}
+.erok {
+	text-align: center; 
+	color: #009900; 
+	border: 1px solid #006600; 
+	background-color: #ccffcc;
+	padding: 4 4 4 4px;
+	font-weight: bold;
+	border-radius: 3px;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+.input {
+	background: url(../images/input.gif) repeat-x left top;
+	border: solid #666666 1px;
+	color: #000066;
+	background-color: #FFFFFF;
+	margin: 0 0 0 0px;
+	height: 17px;
+	font-size: 11px;
+}
+hr {
+	color: #b0cae3;
+	background-color: #b0cae3;
+	height: 1px;
+	border-width: 0px;
+}
+.inp {
+	border: 0px; 
+	background-color: #eeeeee;
+	font-family: Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	font-weight: bold;
+	background-image: url(../images/input_line.gif);
+}
+a {
+	color: #333333; 
+	text-decoration: none; 
+	font-weight: bold;
+}
+a:hover {
+	color: #666666; 
+	text-decoration: none; 
+	font-weight: bold;
+}
+a.menutop {
+	color: #eeeeee; 
+	text-decoration: none; 
+	font-weight: bold;
+	margin-left: 5px;
+	padding-left: 15px;
+	background: url(../images/li.gif) no-repeat left top;
+}
+a.menutop:hover, a.menutop:active {
+	color: #ffffff; 
+	text-decoration: none; 
+	font-weight: bold;
+	margin-left: 5px;
+	padding-left: 15px;
+	background: url(../images/lia.gif) no-repeat left top;
+}
+
+#tooltip{
+	background:#FFFFFF;
+	border:1px solid #666666;
+	color:#333333;
+	font:menu;
+	margin:0px;
+	padding:3px 5px;
+	position:absolute;
+	visibility:hidden
+}

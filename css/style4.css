@@ -1,0 +1,40 @@
+
+
+/* Logo */
+#rt-logo {background: url(../images/style4/logo.png) 0 0 no-repeat;}
+#rt-logo {width:471px;height:54px;display:block;margin-top: 30px; margin-bottom: 32px;} /* Here You should change a width and height of your logo file */ 
+ 
+/* Navigation - Hovers */
+#rt-menu ul.menu li a:hover, .menutop li.root > .item:hover, .menutop li.active.root.f-mainparent-itemfocus > .item, .menutop li.root.f-mainparent-itemfocus > .item, .menu-type-splitmenu .menutop li:hover > .item  {background:url(../images/style4/menu_hover.png) repeat-x bottom;color: #fff;}
+
+/* Navigation - Active */
+#rt-menu ul.menu li.active a, #rt-menu ul.menu li.active a:hover, .menutop li.root.active > .item, .menutop li.root.active > .item:hover, .menu-type-splitmenu .menutop li.active .item {background:url(../images/style4/menu_hover.png) repeat-x bottom;color: #fff; font-weight:bold;}
+.menutop ul li > .item:hover, .menutop ul li.f-menuparent-itemfocus > .item,
+.menutop ul li.active .item, .menutop ul li.active .f-menuparent-itemfocus > .item {background-color: #cc2f31;color: #fff; -box-shadow: 0 0 5px #000; -webkit-box-shadow: 0 0 5px #000; -moz-box-shadow: 0 0 5px #000;}
+
+/* joomla.css */
+.googlemaps button,
+.actions input,
+.button  { border:1px solid #e77475; } 
+.googlemaps button:hover,
+.actions input:hover,
+.button:hover {border:1px solid #933232;}
+
+/* template.css */
+#rt-barbottom {background:#333 url(../images/style4/downbottom_bg.png) repeat-x bottom;}
+#rt-barbottom .menu li {border-left: 1px dotted #cd6a6a; }
+
+/* GK Image Slider */
+.gkIsWrapper-fp .gkIsList {background: url(../images/gklist_bg.png) repeat-x; -moz-border-radius-topleft: 4px; border-top-left-radius: 4px; -moz-border-radius-topright: 4px; border-top-right-radius: 4px; }
+.gkIsWrapper-fp .gkIsList h3 .gkTitleSmall { font-size:11px!important; color:#f2cccc!important; font-family: Arial;text-shadow: #871e1e -1px -1px 1px;}
+.gkIsWrapper-fp .gkIsList h3 .gkTitleBig { font-size:20px!important;text-shadow: #871e1e -1px -1px 1px;}
+.gkIsWrapper-fp .gkIsList li  {font-size:15px; text-transform:uppercase; }
+.gkIsWrapper-fp .gkIsList .gkHeader  {background: url(../images/style4/gkmenu_title.png) repeat-x; -moz-border-radius-topleft: 4px; border-top-left-radius: 4px; }
+.gkIsWrapper-fp .gkIsList li:hover,
+.gkIsWrapper-fp .gkIsList li.active { background: url(../images/style4/gklist_active.png) repeat-x; color:#fff; }
+.gkIsWrapper-fp .gkIsArt h4 a:hover {color: #777 !important;}
+
+
+
+
+

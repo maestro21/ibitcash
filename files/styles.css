@@ -1,0 +1,224 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url("/images/bg.jpg") repeat-x top left #ffffff;
+	height: 100%;
+	font: 11px Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+table, td {
+	font: 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+hr {
+	color: #cccccc;
+	background-color: #cccccc;
+	height: 3px;
+	border-width: 0px;
+}
+h1 {
+	font: 16px Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 1px;
+	margin-bottom: 3px;
+	color: #666666;
+}
+.check {
+	border: none;
+}
+.er {
+	text-align: center; 
+	color: red; 
+	border: 1px solid #990000; 
+	background-color: #ffcccc;
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 3px;
+}
+.erok {
+	text-align: center; 
+	color: #009900; 
+	border: 1px solid #006600; 
+	background-color: #ccffcc;
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 3px;
+}
+a {
+	color: #006699;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff3300;
+	text-decoration: underline;
+}
+.content {
+	margin-top: 15px;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	padding: 7px;
+	border-radius: 6px;
+	height: 100%;
+	font-size: 12px;
+}
+.lineclock {
+	border: 1px solid #999999;
+	background: url("/images/bgclockline.gif") repeat-x top left #eeeeee;
+	border-radius: 3px;
+	padding: 0px;
+}
+.percentline {
+	background: url("/images/bgclocklinepercent.gif") repeat-x top left;
+	height: 19px;
+	margin-top: 0px;
+}
+input, select, textarea {
+	border: 1px solid #999999;
+	font: 12px Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	padding: 1px;
+	border-radius: 4px;
+}
+.subm {
+	cursor: pointer;
+	background: url("/images/subm.gif") repeat-x #4fc4e9;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #333333;
+}
+.subm:hover {
+	cursor: pointer;
+	background: url("/images/asubm.gif") repeat-x #75d1ee;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #666666;
+	text-shadow: 1px 1px 0 #cccccc;
+}
+.hline {
+	height: 1px;
+	background: url(/images/hline.gif) repeat-x top center;
+}
+.highslide-image {
+	border: 4px solid white;
+}
+.highslide-caption {
+	display: none; 
+	border: none; 
+	padding: 8px; 
+	background-color: white;
+}
+.highslide-display-block {
+	display: block;
+}
+.highslide-display-none {
+	display: none;
+}
+a.f {
+	color: #ffffff; 
+	text-decoration: none; 
+	font-weight: normal;
+}
+a.f:hover {
+	color: #cccccc;
+	text-decoration: underline; 
+	font-weight: normal;
+}
+a.highslide-loading, a.highslide-loading:hover {
+	color: black; 
+	font-weight: bold; 
+	text-decoration: none; 
+}
+.highslide {
+	cursor: url(/images/zoomin.cur), pointer; 
+	outline: none;
+}
+.highslide-loading {
+	display: block; 
+	padding: 2px; 
+	border: 1px solid black; 
+	background-color: white; 
+	font-size: 11px; 
+	font-family: Tahoma, Verdana, Helvetica; 
+	padding-left: 22px;
+	background-image: url(/images/loader.gif); 
+	background-repeat: no-repeat; 
+	background-position: 3px 1px; 
+}
+span.tool {
+  position: relative;
+  cursor: help;
+}
+span.tool span.tip {
+  display: none;
+}
+span.tool:hover span.tip {
+  display: block;
+  z-index: 100;
+  position: absolute;
+  top: 1.6em;
+  left: 0;
+  width: auto;
+  padding: 3px 7px 4px 6px;
+  border: 1px solid #336;
+  background-color: #f7f7ee;
+  font: normal 0.9em/1.2em arial, helvetica, sans-serif;
+  text-align: left;
+  color: #000;
+}
+
+
+
+html, body {
+	height: 100%;
+}
+.main {
+	min-height: 100%;
+}
+* html .main {
+	height: 100%;
+}
+.hFooter {
+	height: 83px;
+}
+.footer {
+	border-top: 3px solid #003366;
+	background-color: #006666;
+	height: 70px;
+	margin-top: -73px;
+	font: 11px Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+.footer a {
+	color: #ffffff;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
+}
+.menu {
+	background: url("/images/menu.gif") repeat-x top left #0099cc;
+	height: 36px;
+	border-radius: 8px;
+}
+a.m {
+	color: #ffffff; 
+	text-decoration: none; 
+	font-weight: bold;
+	font-size: 14px;
+}
+a.m:hover {
+	color: #003366;
+	text-decoration: none; 
+	font-weight: bold;
+	font-size: 14px;
+}
+.sep {
+	width: 2px;
+	background: url("/images/sep.gif") no-repeat center top;
+}
+h2 {
+	color: #0099cc;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 1px;
+	padding: 1px;
+}

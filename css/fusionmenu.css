@@ -1,0 +1,80 @@
+
+ 
+/* Navigation - Core */
+#rt-menu ul.menu li a, .menutop li.root > .item, .menu-type-splitmenu .menutop li .item {color: #888;}
+.menutop li.parent.root > .item span, .menu-type-splitmenu .menutop li.parent .item span {background: url(../images/menus/arrow_down.png) 100% 50% no-repeat;}
+.menutop li.parent.root > .item span:hover, .menu-type-splitmenu .menutop li.parent .item span:hover,.menutop li.active.parent.root .item span, .menutop li.root.f-mainparent-itemfocus > .item span {background: url(../images/menus/arrow_down_over.png) 100% 50% no-repeat;margin-right:5px;}
+
+/* Navigation - Dropdowns */
+.menutop .fusion-submenu-wrapper {background: #111;}
+.menutop .fusion-submenu-wrapper.level3, .menutop .fusion-submenu-wrapper.level4, .menutop .fusion-submenu-wrapper.level5, .menutop .fusion-submenu-wrapper.level6 {background: #0f0f0f;}
+.menutop ul li > .item {color: #959595; border-bottom:1px solid #222;}
+.menutop ul li.active .item, .menutop ul li.active .f-menuparent-itemfocus > .item {font-weight:bold;}
+.menutop ul li > .daddy span {background: url(../images/menus/arrow_down_right.png) 100% 50% no-repeat!important;}
+.menutop .fusion-grouped ol li > .item {background: url(../images/menus/menu-arrow.png) 5px 50% no-repeat;}
+.menutop li.root.module > .item span{background: none!important; margin:0!important;}
+
+/* Global */
+.menutop li {height: auto;margin: 0;padding: 0;position: relative;list-style: none; }
+.menutop em {font-size: 100%;font-weight: normal;display: block;font-style: normal;}
+.menutop li .item, .menutop li.active .item {display: block;margin: 0;text-decoration: none;float: none;width: auto;}
+.menutop li .fusion-submenu-wrapper {float: none;left: -999em;position: absolute;z-index: 500;}
+.menutop li:hover li ul, .menutop li.sfHover li ul {top: -999em;}
+.menutop li:hover ul, .menutop li.sfHover ul {top: 0;}
+
+/* Root Items */
+.menutop {list-style: none;margin: 0;padding: 0 1px;position: relative;line-height: 1em;display: inline-block;}
+.menutop li.root {float: left; background: url(../images/menus/menu_sep.png) 100% 50% no-repeat;}
+.menutop li.root > .item {white-space: nowrap;display: block;padding: 0;font-size: 1em;z-index: 100;cursor: pointer;position: relative;margin: 0 4px;outline: none;height: 42px; }
+.menutop li.root > .item span {display: block;margin: 0;outline: none;padding: 0 15px;width: auto;line-height: 42px;}
+.menutop li.root > .item em {font-size: 10px;display: block;text-transform: lowercase;line-height: 0.3em;}
+.menutop li.parent.root .item span {padding-right: 25px; margin-right:5px;}
+.menutop li.root .subtext span {line-height: 1.9em;}
+.menutop li.root > .item img {margin: 0 4px 0 0;vertical-align: text-bottom;}
+
+/* Dropdown Surrounds */
+.menutop ul {padding: 0;margin: 0;float: left;}
+.menutop .drop-bot {height: 1px;overflow: hidden;clear: both;}
+.menutop .fusion-submenu-wrapper {height: auto !important;}
+
+/* Dropdown Items */
+.menutop ul li {padding: 0;display: block;}
+.menutop ul li > .item {padding: 0 15px;height: auto;display: block;font-size: 1em;cursor: pointer;}
+.menutop ul li > .item span {display: block;width: 100%;overflow: hidden;line-height: 40px;}
+.menutop ul li .item img {float: left;margin: 13px 6px 0 0;vertical-align: top;}
+.menutop ul li .nolink span {display: block;}
+.menutop ul li span.item {cursor: default;outline: none;}
+.menutop ul li .subtext span {line-height: 1.9em;}
+.menutop ul li .subtext em {font-size: 11px !important; line-height: 0.6em;padding-bottom: 7px; font-size: 11px; text-transform: lowercase;}
+
+/* No JS */
+.menutop li.root:hover > .fusion-submenu-wrapper {top: 40px;left: 0;}
+.menutop ul li:hover > .fusion-submenu-wrapper {left: 220px;top: 0;}
+
+/* Fusion JS */
+.fusion-js-container {display: block;height: 0;left: 0;overflow: visible;position: absolute;top: 0;z-index: 600000!important;background: transparent !important;}
+.fusion-js-subs {display: none;margin: 0;overflow: hidden;padding: 0;position: absolute;}
+
+/* Grouped & Modules */
+.menutop .fusion-grouped {padding-bottom: 10px;}
+.menutop .fusion-grouped ol {padding: 0;}
+.menutop .fusion-grouped ol li {padding: 0 15px;}
+.menutop .fusion-grouped ol li .item {padding: 0 15px; border-bottom: none; -box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;}
+.menutop .fusion-grouped ol li span {font-size: 90%;line-height: 2em;}
+.menutop .type-module ol {padding: 0;}
+.menutop .type-module ol li {padding: 0;}
+.menutop .type-module ol li .fusion-modules {background: none;}
+.menutop .type-module ol li .fusion-module {padding: 0;background: none;overflow: hidden;}
+.menutop .fusion-module, .menutop .fusion-modules, .menutop .fusion-grouped {display: block;}
+.menutop .fusion-modules.item {padding: 20px; background: none!important; border: none!important; box-shadow:none!important; -moz-box-shadow:none!important; -webkit-box-shadow:none!important;}
+.menutop .fusion-module em {display: inline;font-size: inherit;font-style: italic;}
+.menutop .fusion-module a {font-size: inherit;line-height: 130%;}
+.menutop .fusion-module a:hover {color: #aaa !important;}
+.menutop .fusion-module p, .menutop .fusion-modules p {line-height: 160%; color: #888 !important;}
+.menutop ul li.grouped-parent > .daddy span {background: none;}
+.f-submenu-item a:hover {color: #fff !important;}
+.f-submenu-item .inputbox {background: #222 !important; border: 1px solid #444 !important; color: #bbb !important;}
+.f-submenu-item .inputbox:focus {border: 1px solid #aaa !important;}
+.f-submenu-item #login-form ul  {padding-bottom: 15px !important;}
+.f-submenu-item #login-form ul li a{color: #777;}
+.f-submenu-item #login-form .userdata  {padding-bottom: 15px !important;}

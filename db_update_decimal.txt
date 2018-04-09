@@ -1,0 +1,63 @@
+
+
+
+-- users
+ALTER TABLE  `users` CHANGE  `btc`  `btc` DECIMAL( 40, 30 ) NOT NULL;
+ALTER TABLE  `users` CHANGE  `dgc`  `dgc` DECIMAL( 40, 30 ) NOT NULL;
+ALTER TABLE  `users` CHANGE  `usd`  `usd` DECIMAL( 10, 2 ) NOT NULL;
+ALTER TABLE  `users` CHANGE  `ltc`  `ltc` DECIMAL( 40, 30 ) NOT NULL;
+ALTER TABLE  `users` CHANGE  `dsh`  `dsh` DECIMAL( 40, 30 ) NOT NULL;
+ALTER TABLE  `users` CHANGE  `mnr`  `mnr` DECIMAL( 40, 30 ) NOT NULL;
+ALTER TABLE  `users` CHANGE  `eth`  `eth` DECIMAL( 40, 30 ) NOT NULL;
+ALTER TABLE  `users` CHANGE  `cloud`  `cloud` DECIMAL( 40, 30 ) NOT NULL;
+
+ALTER TABLE  `users` CHANGE  `beth`  `beth` DECIMAL( 40, 30 ) NOT NULL;
+ALTER TABLE  `users` CHANGE  `sum_enter`  `sum_enter` DECIMAL( 40, 30 ) NOT NULL DEFAULT  '0';
+ALTER TABLE  `users` CHANGE  `bdgc`  `bdgc` DECIMAL( 40, 30 ) NOT NULL;
+
+-- tb_orders
+ALTER TABLE  `tb_orders` CHANGE  `s_mount`  `s_mount` DECIMAL( 40, 30 ) NOT NULL;
+
+-- refbonus
+ALTER TABLE  `refbonus` CHANGE  `sum`  `sum` DECIMAL( 40, 30 ) NOT NULL;
+
+-- exchange
+ALTER TABLE  `exchange` CHANGE  `sum`  `sum` DECIMAL( 40, 30 ) NOT NULL;
+ALTER TABLE  `exchange` CHANGE  `sumc`  `sumc` DECIMAL( 40, 30 ) NOT NULL;
+
+-- enter
+ALTER TABLE  `enter` CHANGE  `sum` `sum` DECIMAL( 45, 30 ) NOT NULL DEFAULT  '0';
+
+
+//////////////////////// return script ///////////////////////////////////
+
+-- users
+ALTER TABLE  `users` CHANGE  `btc`  `btc` DOUBLE NOT NULL;
+ALTER TABLE  `users` CHANGE  `dgc`  `dgc` DOUBLE NOT NULL;
+ALTER TABLE  `users` CHANGE  `usd`  `usd` DOUBLE NOT NULL;
+ALTER TABLE  `users` CHANGE  `ltc`  `ltc` DOUBLE NOT NULL;
+ALTER TABLE  `users` CHANGE  `dsh`  `dsh` DOUBLE NOT NULL;
+ALTER TABLE  `users` CHANGE  `mnr`  `mnr` DOUBLE NOT NULL;
+ALTER TABLE  `users` CHANGE  `eth`  `eth` DOUBLE NOT NULL;
+ALTER TABLE  `users` CHANGE  `cloud`  `cloud` DOUBLE NOT NULL;
+
+ALTER TABLE  `users` CHANGE  `beth`  `beth` FLOAT NOT NULL;
+ALTER TABLE  `users` CHANGE  `sum_enter`  `sum_enter` FLOAT NOT NULL DEFAULT  '0';
+ALTER TABLE  `users` CHANGE  `bdgc`  `bdgc` FLOAT NOT NULL;
+
+-- tb_orders
+ALTER TABLE  `tb_orders` CHANGE  `s_mount`  `s_mount` DOUBLE NOT NULL;
+
+-- refbonus
+ALTER TABLE  `refbonus` CHANGE  `sum`  `sum` DOUBLE NOT NULL;
+
+-- exchange
+ALTER TABLE  `exchange` CHANGE  `sum`  `sum` DOUBLE NOT NULL;
+ALTER TABLE  `exchange` CHANGE  `sumc`  `sumc` DOUBLE NOT NULL;
+
+-- enter
+ALTER TABLE  `enter` CHANGE  `sum` `sum` FLOAT NOT NULL DEFAULT  '0';
+
+
+mysql -h yourhostname -u username -p databasename < yoursqlfile.sql
+mysql -h localhost -u root -p ibitcash < ibitcash.sql
