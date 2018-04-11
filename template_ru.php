@@ -5,7 +5,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <!-- Start Alexa Certify Javascript -->
 <script type="text/javascript">
-_atrk_opts = { atrk_acct:"c1Srq19jYF20V1", domain:"ibit.cash",dynamic: true};
+_atrk_opts = { atrk_acct:"c1Srq19jYF20V1", domain:"<?php echo DOMAIN;?>",dynamic: true};
 (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
 </script>
 <noscript><img src="https://certify.alexametrics.com/atrk.gif?account=c1Srq19jYF20V1" style="display:none" height="1" width="1" alt="" /></noscript>
@@ -115,20 +115,20 @@ return false;
     <div class="main">
         <div class="header">
             <div class="logo_header" style="margin-top:0px;">
-                <a href="https://ibit.cash/"><img src="/image/logo_header.png" alt="CoinCloud"></a>
+                <a href="<?php echo BASE_PATH;?>"><img src="/image/logo_header.png" alt="CoinCloud"></a>
             </div><!-- .header -->
             <div class="menu">
-			<?if($login){?> <a href="https://ibit.cash/mining" id="gl">КАБИНЕТ</a><?}?>
-                <a href="https://ibit.cash/" id="gl">ГЛАВНАЯ</a>
-                <a href="https://ibit.cash/news" id="ne">НОВОСТИ</a>
-                <a href="https://ibit.cash/faq" id="fa">FAQ</a>
+			<?if($login){?> <a href="<?php echo BASE_PATH;?>mining" id="gl">КАБИНЕТ</a><?}?>
+                <a href="<?php echo BASE_PATH;?>" id="gl">ГЛАВНАЯ</a>
+                <a href="<?php echo BASE_PATH;?>news" id="ne">НОВОСТИ</a>
+                <a href="<?php echo BASE_PATH;?>faq" id="fa">FAQ</a>
                <!-- <a href="about" id="ab">О НАС</a>-->
-                <a href="https://ibit.cash/ticket" id="su">ПОДДЕРЖКА</a>
+                <a href="<?php echo BASE_PATH;?>ticket" id="su">ПОДДЕРЖКА</a>
             </div><!-- .menu -->
             <div class="auth">
 			<?if (!$login){?>
-                <a href="https://ibit.cash/registration">Регистрация</a>
-               <a href="https://ibit.cash/login">Войти</a>
+                <a href="<?php echo BASE_PATH;?>registration">Регистрация</a>
+               <a href="<?php echo BASE_PATH;?>login">Войти</a>
 			<?}else{
 				?>
 				<table style="width:90%;height:90%;margin:0;padding:0"><tr>				<?
@@ -233,7 +233,7 @@ $key=mysql_result($k_sql,0,'key1');
 	if(!$page) {
 		include "includes/index.php";
 	}elseif($isact==0 AND $page!='activation' AND $user_id!=0){
-		?><script>document.location.href = 'https://ibit.cash/activation';</script><?
+		?><script>document.location.href = '<?php echo BASE_PATH;?>activation';</script><?
 		} elseif(file_exists("../".$page."/index.php")) {
 		
 		include "../".$page."/".$page."_ru.php";
@@ -299,7 +299,7 @@ $key=mysql_result($k_sql,0,'key1');
 				
                         <div class="clr"></div>
             <div class="copyright">
-                <p id="footer_copyright">Все права защищены. 2018 &copy; ibit.cash</p><br>
+                <p id="footer_copyright">Все права защищены. 2018 &copy; <?php echo DOMAIN;?></p><br>
 				<img src="/image/fb.png"
             </div></div></center>
         </div><!-- .footer -->  

@@ -75,7 +75,7 @@ $req = array(
     'address' => '', // leave blank send to follow your settings on the Coin Settings page
     'invoice' => "$login", //ай ди юзера получим при ответе
     'item_name' => 'Test Item/Order Description',
-    'ipn_url' => 'https://ibit.cash/enter/IPMunsver.php',
+    'ipn_url' =>  BASE_PATH . 'enter/IPMunsver.php',
 );
 $result = $cps->CreateTransaction($req);
 

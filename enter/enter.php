@@ -306,7 +306,7 @@ if ($login) {
     <?
 } else {
     ?>
-    <script>document.location.href = 'https://ibit.cash/login';</script><?
+    <script>document.location.href = '<?php echo BASE_PATH;?>login';</script><?
 }
 
 ?>

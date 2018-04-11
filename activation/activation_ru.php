@@ -17,7 +17,7 @@ if(mysql_num_rows(mysql_query("SELECT * FROM activation WHERE uid='$login'"))>0)
 		?>
 	<p>Ваш код активации был выслан вам на эмейл!</p>
 	<?
-$subject = "ibit.cash активация аккаунта";
+$subject = DOMAIN . " активация аккаунта";
 $code=rand(0,9).rand(0,9).rand(0,9).rand(0,9).rand(0,9).rand(0,9).rand(0,9).rand(0,9).rand(0,9).rand(0,9).rand(0,9);
 mysql_query("INSERT INTO activation (uid, code) VALUES ('$login', '$code')");
 			$headers = "From: ".$adminmail."\n";
@@ -26,7 +26,7 @@ mysql_query("INSERT INTO activation (uid, code) VALUES ('$login', '$code')");
 			$headers .= "Content-Type: text/html; charset=utf-8\n";
 
 			$text = "<b>".$ulogin."!</b><br />
-			 Ссылка активации:<a href=\"https://ibit.cash/activation?code=".$code."&l=".$login."\">Активировать!</a>";
+			 Ссылка активации:<a href=\"". BASE_PATH . "/activation?code=".$code."&l=".$login."\">Активировать!</a>";
 
 			mail($user_mail, $subject, $text, $headers);
 }

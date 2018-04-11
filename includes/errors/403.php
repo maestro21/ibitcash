@@ -17,7 +17,7 @@ body {
 <p>Доступ запрещён к данной странице.</p>
 
 <hr size="1" width="50%" align="left"><br />
-&copy; CMS <a href="https://ibit.cash/" target="_blank">AdminStation</a>
+&copy; CMS <a href="<?php echo BASE_PATH;?>" target="_blank">AdminStation</a>
 
 </body>
 </html>

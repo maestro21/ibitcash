@@ -118,17 +118,17 @@ return false;
                 <a href="https://ibit.cash/"><img src="/image/logo_header_en.png" alt="katecloud"></a>
             </div><!-- .header -->
             <div class="menu">
-			<?if($login){?> <a href="https://ibit.cash/mining" id="gl">DASHBOARD</a><?}?>
-                <a href="https://ibit.cash/" id="gl">MAIN</a>
-                <a href="https://ibit.cash/news" id="ne">NEWS</a>
-                <a href="https://ibit.cash/faq" id="fa">FAQ</a>
+			<?if($login){?> <a href="<?php echo BASE_PATH;?>mining" id="gl">DASHBOARD</a><?}?>
+                <a href="<?php echo BASE_PATH;?>" id="gl">MAIN</a>
+                <a href="<?php echo BASE_PATH;?>news" id="ne">NEWS</a>
+                <a href="<?php echo BASE_PATH;?>faq" id="fa">FAQ</a>
                <!-- <a href="about" id="ab">О НАС</a>-->
-                <a href="https://ibit.cash/ticket" id="su">SUPPORT</a>
+                <a href="<?php echo BASE_PATH;?>ticket" id="su">SUPPORT</a>
             </div><!-- .menu -->
             <div class="auth">
 			<?if (!$login){?>
-                <a href="https://ibit.cash/registration">Sign up</a>
-               <a href="https://ibit.cash/login">Sign in</a>
+                <a href="<?php echo BASE_PATH;?>registration">Sign up</a>
+               <a href="<?php echo BASE_PATH;?>login">Sign in</a>
 			   
 			<?}else{
 				?>
@@ -233,9 +233,9 @@ $key=mysql_result($k_sql,0,'key1');
 	if(!$page) {
 		include "includes/index_en.php";
 	}elseif($isact==0 AND $page!='activation' AND $user_id!=0){
-		?><script>document.location.href = 'http://ibit.cash/activation';</script><?
+		?><script>document.location.href = '<?php echo BASE_PATH;?>activation';</script><?
 		}elseif($isact==0 AND $page!='activation' AND $user_id!=0){
-		?><script>document.location.href = 'http://ibit.cash/activation';</script><?
+		?><script>document.location.href = '<?php echo BASE_PATH;?>activation';</script><?
 		} elseif(file_exists("../".$page."/index.php")) {
 		
 		include "../".$page."/".$page.".php";
@@ -301,7 +301,7 @@ $key=mysql_result($k_sql,0,'key1');
             </div>
                         <div class="clr"></div>
             <div class="copyright">
-                <p id="footer_copyright">All rights reserved. 2018 © ibit.cash</p><br>
+                <p id="footer_copyright">All rights reserved. 2018 © <?php echo DOMAIN;?></p><br>
 				<img src="/image/fb.png"
             </div></div></center>
         </div><!-- .footer -->  

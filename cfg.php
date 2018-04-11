@@ -1,6 +1,13 @@
 <?php
-define('BASE_URL', 'https://ibit.cash');
+define(DEV, FALSE);
 
+if(DEV) {
+	define('DOMAIN', 'ibitcash.test');	
+	define('BASE_PATH', 'http://' . DOMAIN . '/');
+} else {
+	define('DOMAIN', 'ibit.cash');
+	define('BASE_PATH', 'https://' . DOMAIN . '/');
+}
 //Error_Reporting(0);
 /*
 	$hostname				= "localhost";					// Хост

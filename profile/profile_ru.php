@@ -52,8 +52,8 @@ if ($login) {
 			$subject = "Восстановление пин-кода";
 
 			$headers = "From:ib@it.cash\n";
-            $headers .= "Reply-to:ibit.cash\n";
-			$headers .= "X-Sender: < https://ibit.cash>\n";
+            $headers .= "Reply-to:" . DOMAIN . "\n";
+			$headers .= "X-Sender: <".BASE_PATH.">\n";
 			$headers .= "Content-Type: text/html; charset=UTF-8\n";
 
 			$text = "";
@@ -193,7 +193,7 @@ $a		= mysql_fetch_array($rs);
 									</div>
 <?php
 } }else {
-		?><script>document.location.href = 'https://ibit.cash/login';</script><?
+		?><script>document.location.href = '<?php echo BASE_PATH;?>login';</script><?
 }
 
 ?>

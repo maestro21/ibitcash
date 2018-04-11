@@ -96,7 +96,7 @@ for ($i=0;$i<mysql_num_rows($sql2);$i++)
 						<br>
 						<center>
 							<p>
-								<b>Ваша партнерская ссылка: <a href="https://ibit.cash/?ref=<?php print $user_id; ?>">https://ibit.cash/?ref=<?php print $user_id; ?></a></b>
+								<b>Ваша партнерская ссылка: <a href="<?php echo BASE_PATH;?>?ref=<?php print $user_id; ?>"><?php echo BASE_PATH;?>?ref=<?php print $user_id; ?></a></b>
 							</p>
 						</center>
 						<br>

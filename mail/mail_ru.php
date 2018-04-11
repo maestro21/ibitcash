@@ -35,7 +35,7 @@ mysql_query("UPDATE admmail SET status=0 WHERE login='$login' AND date='$date' L
 ?>
 <table class="table_supp" cellpadding="5" style="width:100%;">
 					<tr class="table_tr">
-						<td class="table_td1" style="width:10%;">Команда ibit.cash</td>
+						<td class="table_td1" style="width:10%;">Команда <?php echo DOMAIN;?></td>
 						<td class="table_td1">Дата отправки:<?echo date("d.m.y H:i", $date);?></td>
 					</tr>
 				</table>
@@ -46,5 +46,5 @@ mysql_query("UPDATE admmail SET status=0 WHERE login='$login' AND date='$date' L
 }
 else
 {
-		?><script>document.location.href = 'https://ibit.cash/login';</script><?
+		?><script>document.location.href = '<?php echo BASE_PATH;?>login';</script><?
 }

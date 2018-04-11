@@ -9,7 +9,6 @@ if($lng == "ru") {
 } else {
 	require_once "template.php";
 }
-$_DEV = true;
-if($_DEV) { ?>
+if(DEV) { ?>
 	<div style="position:fixed; color: darkred; border:1px darkred solid; padding: 10px; right:0; top: 0; background-color: yellow">DEV</div>
 <?php } ?>

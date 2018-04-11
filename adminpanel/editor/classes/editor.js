@@ -401,7 +401,7 @@
 				delta_height : 0,
 				popup_css : '',
 				plugins : '',
-				document_base_url : tinymce.documentBaseURL,
+				document_DOMAIN : tinymce.documentBaseURL,
 				add_form_submit_trigger : 1,
 				submit_patch : 1,
 				add_unload_trigger : 1,
@@ -442,7 +442,7 @@
 			 * @property documentBaseURI
 			 * @type tinymce.util.URI
 			 */
-			t.documentBaseURI = new tinymce.util.URI(s.document_base_url || tinymce.documentBaseURL, {
+			t.documentBaseURI = new tinymce.util.URI(s.document_DOMAIN || tinymce.documentBaseURL, {
 				base_uri : tinyMCE.baseURI
 			});
 
@@ -729,7 +729,7 @@
 
 			// We only need to override paths if we have to
 			// IE has a bug where it remove site absolute urls to relative ones if this is specified
-			if (s.document_base_url != tinymce.documentBaseURL)
+			if (s.document_DOMAIN != tinymce.documentBaseURL)
 				t.iframeHTML += '<base href="' + t.documentBaseURI.getURI() + '" />';
 
 			t.iframeHTML += '<meta http-equiv="X-UA-Compatible" content="IE=7" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />';

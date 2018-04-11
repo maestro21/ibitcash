@@ -117,7 +117,7 @@ $a	= substr(addslashes(htmlspecialchars($_GET['a'], ENT_QUOTES, '')), 0, 15);
 		</td>
 	</tr>
 	<tr height="33" bgcolor="#5e87a9">
-		<td align="center" style="color: #ffffff;">&copy; 2007-<?php print date(Y); ?> CMS <a style="color: #ffffff;" href="http://ibit.cash/" target="_blank">ibit</a> v3.1.1<br />
+		<td align="center" style="color: #ffffff;">&copy; 2007-<?php print date(Y); ?> CMS <a style="color: #ffffff;" href="<?php echo BASE_PATH;?>" target="_blank">ibit</a> v3.1.1<br />
 		Все права защищены!</td>
 	</tr>
 </table>

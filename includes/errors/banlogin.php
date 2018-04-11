@@ -25,7 +25,7 @@ $date=mysql_result($sql,0,'date');
 <img src='../img/<?echo $img;?>' width=20% height=20%>
 <p><?echo date("d.m.y H:i", $date);?></p>
 <hr size="1" width="50%" align="left"><br />
-<a href="https://ibit.cash/" target="_blank">ibit</a>
+<a href="<?php echo BASE_PATH;?>" target="_blank">ibit</a>
 </center>
 </body>
 </html>

@@ -72,8 +72,8 @@ if($error == 1) {
 	</form>
 	<tr height="25">
 		<td align="center">
-<font color="#999999">&copy; 2007 - <?php print date(Y); ?> CMS <a style="font-weight: normal;" href="http://ibit.cash/" target="_blank">ibit</a> v3.1.1 Все права защищены!<br />
-Разработка компании информационных технологий <a style="font-weight: normal;" href="http://ibit.cash/" target="_blank">ibit</a></font>
+<font color="#999999">&copy; 2007 - <?php print date(Y); ?> CMS <a style="font-weight: normal;" href="<?php echo BASE_PATH;?>" target="_blank">ibit</a> v3.1.1 Все права защищены!<br />
+Разработка компании информационных технологий <a style="font-weight: normal;" href="<?php echo BASE_PATH;?>" target="_blank">ibit</a></font>
 		</td>
 	</tr>
 </table>
